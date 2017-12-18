@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		919223E00C4E6704140AE11E /* Pods_JiuHuarSalesOrder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B7548EDE93F3D8C1F68BEF /* Pods_JiuHuarSalesOrder.framework */; };
+		FF26F33C1FE25B3000477B54 /* ExmpleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26F33B1FE25B3000477B54 /* ExmpleModel.swift */; };
+		FF26F3411FE26EC900477B54 /* FuncTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26F3401FE26EC900477B54 /* FuncTool.swift */; };
+		FF26F3431FE2770000477B54 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF26F3421FE2770000477B54 /* Info.plist */; };
+		FF26F34D1FE2774700477B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF26F34B1FE2774700477B54 /* LaunchScreen.storyboard */; };
+		FF26F3531FE2798200477B54 /* RefreshTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26F3521FE2798200477B54 /* RefreshTableView.swift */; };
+		FF26F35A1FE27CF400477B54 /* DGElasticPullToRefreshConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26F3551FE27CF400477B54 /* DGElasticPullToRefreshConstants.swift */; };
+		FF26F35B1FE27CF400477B54 /* DGElasticPullToRefreshExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26F3561FE27CF400477B54 /* DGElasticPullToRefreshExtensions.swift */; };
+		FF26F35C1FE27CF400477B54 /* DGElasticPullToRefreshLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26F3571FE27CF400477B54 /* DGElasticPullToRefreshLoadingView.swift */; };
+		FF26F35D1FE27CF400477B54 /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26F3581FE27CF400477B54 /* DGElasticPullToRefreshLoadingViewCircle.swift */; };
+		FF26F35E1FE27CF400477B54 /* DGElasticPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26F3591FE27CF400477B54 /* DGElasticPullToRefreshView.swift */; };
+		FF26F3601FE37AEA00477B54 /* ConstantTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26F35F1FE37AEA00477B54 /* ConstantTool.swift */; };
+		FF26F3621FE3BE2F00477B54 /* FJExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26F3611FE3BE2F00477B54 /* FJExampleCell.swift */; };
+		FF8D7F401FDFC551007BE595 /* NetWorkRootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D7F3F1FDFC551007BE595 /* NetWorkRootViewModel.swift */; };
+		FF8D7F4B1FE0FE96007BE595 /* FJHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D7F4A1FE0FE96007BE595 /* FJHomeViewModel.swift */; };
+		FF8D7F4F1FE1080F007BE595 /* app.cer in Resources */ = {isa = PBXBuildFile; fileRef = FF8D7F4E1FE1080F007BE595 /* app.cer */; };
+		FF8D7F511FE10F0C007BE595 /* app1.cer in Resources */ = {isa = PBXBuildFile; fileRef = FF8D7F501FE10F0C007BE595 /* app1.cer */; };
+		FFF1A2BF1FD8E1AD00444DBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1A2BE1FD8E1AD00444DBD /* AppDelegate.swift */; };
+		FFF1A2C11FD8E1AD00444DBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1A2C01FD8E1AD00444DBD /* ViewController.swift */; };
+		FFF1A2C41FD8E1AD00444DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF1A2C21FD8E1AD00444DBD /* Main.storyboard */; };
+		FFF1A2C61FD8E1AD00444DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF1A2C51FD8E1AD00444DBD /* Assets.xcassets */; };
+		FFF1A2D41FD8E1AD00444DBD /* JiuHuarSalesOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1A2D31FD8E1AD00444DBD /* JiuHuarSalesOrderTests.swift */; };
+		FFF1A2DF1FD8E1AD00444DBD /* JiuHuarSalesOrderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1A2DE1FD8E1AD00444DBD /* JiuHuarSalesOrderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFF1A2D01FD8E1AD00444DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF1A2B31FD8E1AD00444DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF1A2BA1FD8E1AD00444DBD;
+			remoteInfo = JiuHuarSalesOrder;
+		};
+		FFF1A2DB1FD8E1AD00444DBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF1A2B31FD8E1AD00444DBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF1A2BA1FD8E1AD00444DBD;
+			remoteInfo = JiuHuarSalesOrder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29E76026B50D6FF378F482FE /* Pods-JiuHuarSalesOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiuHuarSalesOrder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiuHuarSalesOrder/Pods-JiuHuarSalesOrder.debug.xcconfig"; sourceTree = "<group>"; };
+		92B7548EDE93F3D8C1F68BEF /* Pods_JiuHuarSalesOrder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiuHuarSalesOrder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD28A07B3AC9FD2727C83380 /* Pods-JiuHuarSalesOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiuHuarSalesOrder.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiuHuarSalesOrder/Pods-JiuHuarSalesOrder.release.xcconfig"; sourceTree = "<group>"; };
+		FF26F33B1FE25B3000477B54 /* ExmpleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExmpleModel.swift; sourceTree = "<group>"; };
+		FF26F3401FE26EC900477B54 /* FuncTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncTool.swift; sourceTree = "<group>"; };
+		FF26F3421FE2770000477B54 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF26F34C1FE2774700477B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF26F3521FE2798200477B54 /* RefreshTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTableView.swift; sourceTree = "<group>"; };
+		FF26F3551FE27CF400477B54 /* DGElasticPullToRefreshConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshConstants.swift; sourceTree = "<group>"; };
+		FF26F3561FE27CF400477B54 /* DGElasticPullToRefreshExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshExtensions.swift; sourceTree = "<group>"; };
+		FF26F3571FE27CF400477B54 /* DGElasticPullToRefreshLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshLoadingView.swift; sourceTree = "<group>"; };
+		FF26F3581FE27CF400477B54 /* DGElasticPullToRefreshLoadingViewCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshLoadingViewCircle.swift; sourceTree = "<group>"; };
+		FF26F3591FE27CF400477B54 /* DGElasticPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshView.swift; sourceTree = "<group>"; };
+		FF26F35F1FE37AEA00477B54 /* ConstantTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantTool.swift; sourceTree = "<group>"; };
+		FF26F3611FE3BE2F00477B54 /* FJExampleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FJExampleCell.swift; sourceTree = "<group>"; };
+		FF8D7F3F1FDFC551007BE595 /* NetWorkRootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkRootViewModel.swift; sourceTree = "<group>"; };
+		FF8D7F4A1FE0FE96007BE595 /* FJHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FJHomeViewModel.swift; sourceTree = "<group>"; };
+		FF8D7F4E1FE1080F007BE595 /* app.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = app.cer; sourceTree = "<group>"; };
+		FF8D7F501FE10F0C007BE595 /* app1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = app1.cer; sourceTree = "<group>"; };
+		FFF1A2BB1FD8E1AD00444DBD /* JiuHuarSalesOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiuHuarSalesOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF1A2BE1FD8E1AD00444DBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFF1A2C01FD8E1AD00444DBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFF1A2C31FD8E1AD00444DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFF1A2C51FD8E1AD00444DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF1A2CF1FD8E1AD00444DBD /* JiuHuarSalesOrderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiuHuarSalesOrderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF1A2D31FD8E1AD00444DBD /* JiuHuarSalesOrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiuHuarSalesOrderTests.swift; sourceTree = "<group>"; };
+		FFF1A2D51FD8E1AD00444DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF1A2DA1FD8E1AD00444DBD /* JiuHuarSalesOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiuHuarSalesOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF1A2DE1FD8E1AD00444DBD /* JiuHuarSalesOrderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiuHuarSalesOrderUITests.swift; sourceTree = "<group>"; };
+		FFF1A2E01FD8E1AD00444DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF1A2B81FD8E1AD00444DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919223E00C4E6704140AE11E /* Pods_JiuHuarSalesOrder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF1A2CC1FD8E1AD00444DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF1A2D71FD8E1AD00444DBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD724F92FC8A35E5659D9AEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29E76026B50D6FF378F482FE /* Pods-JiuHuarSalesOrder.debug.xcconfig */,
+				CD28A07B3AC9FD2727C83380 /* Pods-JiuHuarSalesOrder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA8E1A26F89E0EF06D603951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92B7548EDE93F3D8C1F68BEF /* Pods_JiuHuarSalesOrder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF26F33D1FE267D100477B54 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				FF26F3401FE26EC900477B54 /* FuncTool.swift */,
+				FF26F35F1FE37AEA00477B54 /* ConstantTool.swift */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		FF26F34E1FE2788C00477B54 /* Generals */ = {
+			isa = PBXGroup;
+			children = (
+				FF26F3511FE2791B00477B54 /* Views */,
+				FF26F3501FE2790300477B54 /* Classes */,
+				FF26F34F1FE278F400477B54 /* Extention */,
+			);
+			path = Generals;
+			sourceTree = "<group>";
+		};
+		FF26F34F1FE278F400477B54 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		FF26F3501FE2790300477B54 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FF26F3511FE2791B00477B54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF26F3521FE2798200477B54 /* RefreshTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF26F3541FE27CF400477B54 /* DGElasticPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				FF26F3551FE27CF400477B54 /* DGElasticPullToRefreshConstants.swift */,
+				FF26F3561FE27CF400477B54 /* DGElasticPullToRefreshExtensions.swift */,
+				FF26F3571FE27CF400477B54 /* DGElasticPullToRefreshLoadingView.swift */,
+				FF26F3581FE27CF400477B54 /* DGElasticPullToRefreshLoadingViewCircle.swift */,
+				FF26F3591FE27CF400477B54 /* DGElasticPullToRefreshView.swift */,
+			);
+			path = DGElasticPullToRefresh;
+			sourceTree = "<group>";
+		};
+		FF8D7F3A1FDFBBFC007BE595 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF8D7F3E1FDFBCB5007BE595 /* VC */,
+				FF8D7F3D1FDFBC8D007BE595 /* ViewModel */,
+				FF8D7F3C1FDFBC78007BE595 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FF8D7F3B1FDFBBFD007BE595 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FF8D7F3F1FDFC551007BE595 /* NetWorkRootViewModel.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FF8D7F3C1FDFBC78007BE595 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF26F3611FE3BE2F00477B54 /* FJExampleCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF8D7F3D1FDFBC8D007BE595 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF8D7F4A1FE0FE96007BE595 /* FJHomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF8D7F3E1FDFBCB5007BE595 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FFF1A2C01FD8E1AD00444DBD /* ViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FF8D7F451FE0FC6B007BE595 /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				FF8D7F501FE10F0C007BE595 /* app1.cer */,
+				FF8D7F4E1FE1080F007BE595 /* app.cer */,
+			);
+			path = Resouce;
+			sourceTree = "<group>";
+		};
+		FF8D7F521FE13F69007BE595 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF26F33B1FE25B3000477B54 /* ExmpleModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF8D7F581FE2140F007BE595 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				FF26F34B1FE2774700477B54 /* LaunchScreen.storyboard */,
+				FFF1A2C21FD8E1AD00444DBD /* Main.storyboard */,
+				FFF1A2BE1FD8E1AD00444DBD /* AppDelegate.swift */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		FF8D7F5E1FE22D38007BE595 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				FF26F3541FE27CF400477B54 /* DGElasticPullToRefresh */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		FFF1A2B21FD8E1AD00444DBD = {
+			isa = PBXGroup;
+			children = (
+				FFF1A2BD1FD8E1AD00444DBD /* JiuHuarSalesOrder */,
+				FFF1A2D21FD8E1AD00444DBD /* JiuHuarSalesOrderTests */,
+				FFF1A2DD1FD8E1AD00444DBD /* JiuHuarSalesOrderUITests */,
+				FFF1A2BC1FD8E1AD00444DBD /* Products */,
+				BD724F92FC8A35E5659D9AEF /* Pods */,
+				DA8E1A26F89E0EF06D603951 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF1A2BC1FD8E1AD00444DBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF1A2BB1FD8E1AD00444DBD /* JiuHuarSalesOrder.app */,
+				FFF1A2CF1FD8E1AD00444DBD /* JiuHuarSalesOrderTests.xctest */,
+				FFF1A2DA1FD8E1AD00444DBD /* JiuHuarSalesOrderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF1A2BD1FD8E1AD00444DBD /* JiuHuarSalesOrder */ = {
+			isa = PBXGroup;
+			children = (
+				FF26F34E1FE2788C00477B54 /* Generals */,
+				FF26F33D1FE267D100477B54 /* Macros */,
+				FF8D7F5E1FE22D38007BE595 /* Vendors */,
+				FF8D7F521FE13F69007BE595 /* Models */,
+				FF8D7F3A1FDFBBFC007BE595 /* Classes */,
+				FF8D7F3B1FDFBBFD007BE595 /* Network */,
+				FF8D7F451FE0FC6B007BE595 /* Resouce */,
+				FF8D7F581FE2140F007BE595 /* SupportFile */,
+				FFF1A2C51FD8E1AD00444DBD /* Assets.xcassets */,
+				FF26F3421FE2770000477B54 /* Info.plist */,
+			);
+			path = JiuHuarSalesOrder;
+			sourceTree = "<group>";
+		};
+		FFF1A2D21FD8E1AD00444DBD /* JiuHuarSalesOrderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF1A2D31FD8E1AD00444DBD /* JiuHuarSalesOrderTests.swift */,
+				FFF1A2D51FD8E1AD00444DBD /* Info.plist */,
+			);
+			path = JiuHuarSalesOrderTests;
+			sourceTree = "<group>";
+		};
+		FFF1A2DD1FD8E1AD00444DBD /* JiuHuarSalesOrderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF1A2DE1FD8E1AD00444DBD /* JiuHuarSalesOrderUITests.swift */,
+				FFF1A2E01FD8E1AD00444DBD /* Info.plist */,
+			);
+			path = JiuHuarSalesOrderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF1A2BA1FD8E1AD00444DBD /* JiuHuarSalesOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF1A2E31FD8E1AD00444DBD /* Build configuration list for PBXNativeTarget "JiuHuarSalesOrder" */;
+			buildPhases = (
+				2D8DD5409C1C757EAC86F48E /* [CP] Check Pods Manifest.lock */,
+				FFF1A2B71FD8E1AD00444DBD /* Sources */,
+				FFF1A2B81FD8E1AD00444DBD /* Frameworks */,
+				FFF1A2B91FD8E1AD00444DBD /* Resources */,
+				4F09D458D8B2B8034968AA21 /* [CP] Embed Pods Frameworks */,
+				E007069751A62B12FCAA14CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiuHuarSalesOrder;
+			productName = JiuHuarSalesOrder;
+			productReference = FFF1A2BB1FD8E1AD00444DBD /* JiuHuarSalesOrder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFF1A2CE1FD8E1AD00444DBD /* JiuHuarSalesOrderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF1A2E61FD8E1AD00444DBD /* Build configuration list for PBXNativeTarget "JiuHuarSalesOrderTests" */;
+			buildPhases = (
+				FFF1A2CB1FD8E1AD00444DBD /* Sources */,
+				FFF1A2CC1FD8E1AD00444DBD /* Frameworks */,
+				FFF1A2CD1FD8E1AD00444DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF1A2D11FD8E1AD00444DBD /* PBXTargetDependency */,
+			);
+			name = JiuHuarSalesOrderTests;
+			productName = JiuHuarSalesOrderTests;
+			productReference = FFF1A2CF1FD8E1AD00444DBD /* JiuHuarSalesOrderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFF1A2D91FD8E1AD00444DBD /* JiuHuarSalesOrderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF1A2E91FD8E1AD00444DBD /* Build configuration list for PBXNativeTarget "JiuHuarSalesOrderUITests" */;
+			buildPhases = (
+				FFF1A2D61FD8E1AD00444DBD /* Sources */,
+				FFF1A2D71FD8E1AD00444DBD /* Frameworks */,
+				FFF1A2D81FD8E1AD00444DBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF1A2DC1FD8E1AD00444DBD /* PBXTargetDependency */,
+			);
+			name = JiuHuarSalesOrderUITests;
+			productName = JiuHuarSalesOrderUITests;
+			productReference = FFF1A2DA1FD8E1AD00444DBD /* JiuHuarSalesOrderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF1A2B31FD8E1AD00444DBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "jin fu";
+				TargetAttributes = {
+					FFF1A2BA1FD8E1AD00444DBD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FFF1A2CE1FD8E1AD00444DBD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFF1A2BA1FD8E1AD00444DBD;
+					};
+					FFF1A2D91FD8E1AD00444DBD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFF1A2BA1FD8E1AD00444DBD;
+					};
+				};
+			};
+			buildConfigurationList = FFF1A2B61FD8E1AD00444DBD /* Build configuration list for PBXProject "JiuHuarSalesOrder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF1A2B21FD8E1AD00444DBD;
+			productRefGroup = FFF1A2BC1FD8E1AD00444DBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF1A2BA1FD8E1AD00444DBD /* JiuHuarSalesOrder */,
+				FFF1A2CE1FD8E1AD00444DBD /* JiuHuarSalesOrderTests */,
+				FFF1A2D91FD8E1AD00444DBD /* JiuHuarSalesOrderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF1A2B91FD8E1AD00444DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8D7F4F1FE1080F007BE595 /* app.cer in Resources */,
+				FF26F3431FE2770000477B54 /* Info.plist in Resources */,
+				FFF1A2C61FD8E1AD00444DBD /* Assets.xcassets in Resources */,
+				FF26F34D1FE2774700477B54 /* LaunchScreen.storyboard in Resources */,
+				FF8D7F511FE10F0C007BE595 /* app1.cer in Resources */,
+				FFF1A2C41FD8E1AD00444DBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF1A2CD1FD8E1AD00444DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF1A2D81FD8E1AD00444DBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D8DD5409C1C757EAC86F48E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JiuHuarSalesOrder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F09D458D8B2B8034968AA21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JiuHuarSalesOrder/Pods-JiuHuarSalesOrder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiuHuarSalesOrder/Pods-JiuHuarSalesOrder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E007069751A62B12FCAA14CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiuHuarSalesOrder/Pods-JiuHuarSalesOrder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF1A2B71FD8E1AD00444DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF26F3531FE2798200477B54 /* RefreshTableView.swift in Sources */,
+				FF8D7F4B1FE0FE96007BE595 /* FJHomeViewModel.swift in Sources */,
+				FF26F35E1FE27CF400477B54 /* DGElasticPullToRefreshView.swift in Sources */,
+				FF26F35D1FE27CF400477B54 /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */,
+				FF26F3411FE26EC900477B54 /* FuncTool.swift in Sources */,
+				FFF1A2C11FD8E1AD00444DBD /* ViewController.swift in Sources */,
+				FF26F35C1FE27CF400477B54 /* DGElasticPullToRefreshLoadingView.swift in Sources */,
+				FF26F35B1FE27CF400477B54 /* DGElasticPullToRefreshExtensions.swift in Sources */,
+				FF26F3621FE3BE2F00477B54 /* FJExampleCell.swift in Sources */,
+				FF26F3601FE37AEA00477B54 /* ConstantTool.swift in Sources */,
+				FF26F35A1FE27CF400477B54 /* DGElasticPullToRefreshConstants.swift in Sources */,
+				FF26F33C1FE25B3000477B54 /* ExmpleModel.swift in Sources */,
+				FF8D7F401FDFC551007BE595 /* NetWorkRootViewModel.swift in Sources */,
+				FFF1A2BF1FD8E1AD00444DBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF1A2CB1FD8E1AD00444DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF1A2D41FD8E1AD00444DBD /* JiuHuarSalesOrderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF1A2D61FD8E1AD00444DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF1A2DF1FD8E1AD00444DBD /* JiuHuarSalesOrderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFF1A2D11FD8E1AD00444DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF1A2BA1FD8E1AD00444DBD /* JiuHuarSalesOrder */;
+			targetProxy = FFF1A2D01FD8E1AD00444DBD /* PBXContainerItemProxy */;
+		};
+		FFF1A2DC1FD8E1AD00444DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF1A2BA1FD8E1AD00444DBD /* JiuHuarSalesOrder */;
+			targetProxy = FFF1A2DB1FD8E1AD00444DBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF26F34B1FE2774700477B54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF26F34C1FE2774700477B54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FFF1A2C21FD8E1AD00444DBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF1A2C31FD8E1AD00444DBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFF1A2E11FD8E1AD00444DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFF1A2E21FD8E1AD00444DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF1A2E41FD8E1AD00444DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E76026B50D6FF378F482FE /* Pods-JiuHuarSalesOrder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = JiuHuarSalesOrder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiuhuar.JiuHuarSalesOrder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFF1A2E51FD8E1AD00444DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD28A07B3AC9FD2727C83380 /* Pods-JiuHuarSalesOrder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = JiuHuarSalesOrder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiuhuar.JiuHuarSalesOrder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFF1A2E71FD8E1AD00444DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiuHuarSalesOrderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiuhuar.JiuHuarSalesOrderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiuHuarSalesOrder.app/JiuHuarSalesOrder";
+			};
+			name = Debug;
+		};
+		FFF1A2E81FD8E1AD00444DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiuHuarSalesOrderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiuhuar.JiuHuarSalesOrderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiuHuarSalesOrder.app/JiuHuarSalesOrder";
+			};
+			name = Release;
+		};
+		FFF1A2EA1FD8E1AD00444DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiuHuarSalesOrderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiuhuar.JiuHuarSalesOrderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JiuHuarSalesOrder;
+			};
+			name = Debug;
+		};
+		FFF1A2EB1FD8E1AD00444DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiuHuarSalesOrderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiuhuar.JiuHuarSalesOrderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JiuHuarSalesOrder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF1A2B61FD8E1AD00444DBD /* Build configuration list for PBXProject "JiuHuarSalesOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF1A2E11FD8E1AD00444DBD /* Debug */,
+				FFF1A2E21FD8E1AD00444DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF1A2E31FD8E1AD00444DBD /* Build configuration list for PBXNativeTarget "JiuHuarSalesOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF1A2E41FD8E1AD00444DBD /* Debug */,
+				FFF1A2E51FD8E1AD00444DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF1A2E61FD8E1AD00444DBD /* Build configuration list for PBXNativeTarget "JiuHuarSalesOrderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF1A2E71FD8E1AD00444DBD /* Debug */,
+				FFF1A2E81FD8E1AD00444DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF1A2E91FD8E1AD00444DBD /* Build configuration list for PBXNativeTarget "JiuHuarSalesOrderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF1A2EA1FD8E1AD00444DBD /* Debug */,
+				FFF1A2EB1FD8E1AD00444DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF1A2B31FD8E1AD00444DBD /* Project object */;
+}

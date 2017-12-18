@@ -1,0 +1,6 @@
+framework module Pods_JiuHuarSalesOrder {
+  umbrella header "Pods-JiuHuarSalesOrder-umbrella.h"
+
+  export *
+  module * { export * }
+}
