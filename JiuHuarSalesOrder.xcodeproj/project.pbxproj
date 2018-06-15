@@ -268,13 +268,6 @@
 			name = Group3_1;
 			sourceTree = "<group>";
 		};
-		FF935BC620D35E000059356E /* Group2_1 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Group2_1;
-			sourceTree = "<group>";
-		};
 		FFDE233520D2A9380094A329 /* Group1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,7 +278,6 @@
 		FFDE233620D2A9AF0094A329 /* Group2 */ = {
 			isa = PBXGroup;
 			children = (
-				FF935BC620D35E000059356E /* Group2_1 */,
 				FFDE233A20D2AAD60094A329 /* Group2View.swift */,
 			);
 			path = Group2;
