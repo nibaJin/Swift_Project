@@ -28,6 +28,10 @@
 		FF935BCD20D35F920059356E /* Group3_1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF935BCC20D35F920059356E /* Group3_1View.swift */; };
 		FF935BCF20D35FA80059356E /* Groip2_2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF935BCE20D35FA80059356E /* Groip2_2View.swift */; };
 		FF935BD220D35FC20059356E /* Group2_1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF935BD120D35FC20059356E /* Group2_1View.swift */; };
+		FF935BD820D360DF0059356E /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF935BD420D360DF0059356E /* NSObjectExtension.swift */; };
+		FF935BD920D360DF0059356E /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF935BD520D360DF0059356E /* UIViewExtension.swift */; };
+		FF935BDA20D360DF0059356E /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF935BD620D360DF0059356E /* StringExtension.swift */; };
+		FF935BDB20D360DF0059356E /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF935BD720D360DF0059356E /* DateExtension.swift */; };
 		FFDE233920D2AA460094A329 /* Group3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE233820D2AA460094A329 /* Group3View.swift */; };
 		FFDE233B20D2AAD60094A329 /* Group2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE233A20D2AAD60094A329 /* Group2View.swift */; };
 		FFDE233D20D2AD6E0094A329 /* Folder in Resources */ = {isa = PBXBuildFile; fileRef = FFDE233C20D2AD6D0094A329 /* Folder */; };
@@ -80,6 +84,10 @@
 		FF935BCC20D35F920059356E /* Group3_1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group3_1View.swift; sourceTree = "<group>"; };
 		FF935BCE20D35FA80059356E /* Groip2_2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groip2_2View.swift; sourceTree = "<group>"; };
 		FF935BD120D35FC20059356E /* Group2_1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group2_1View.swift; sourceTree = "<group>"; };
+		FF935BD420D360DF0059356E /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		FF935BD520D360DF0059356E /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FF935BD620D360DF0059356E /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		FF935BD720D360DF0059356E /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		FFDE233820D2AA460094A329 /* Group3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group3View.swift; sourceTree = "<group>"; };
 		FFDE233A20D2AAD60094A329 /* Group2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group2View.swift; sourceTree = "<group>"; };
 		FFDE233C20D2AD6D0094A329 /* Folder */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Folder; sourceTree = "<group>"; };
@@ -301,6 +309,17 @@
 			name = Group3_2;
 			sourceTree = "<group>";
 		};
+		FF935BD320D360DF0059356E /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				FF935BD420D360DF0059356E /* NSObjectExtension.swift */,
+				FF935BD520D360DF0059356E /* UIViewExtension.swift */,
+				FF935BD620D360DF0059356E /* StringExtension.swift */,
+				FF935BD720D360DF0059356E /* DateExtension.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
 		FFDE233520D2A9380094A329 /* Group1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +330,7 @@
 		FFDE233620D2A9AF0094A329 /* Group2 */ = {
 			isa = PBXGroup;
 			children = (
+				FF935BD320D360DF0059356E /* Extention */,
 				FF935BC820D35F510059356E /* Group2_2 */,
 				FF935BC720D35F430059356E /* Group2_1 */,
 				FFDE233A20D2AAD60094A329 /* Group2View.swift */,
@@ -591,12 +611,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF26F3531FE2798200477B54 /* RefreshTableView.swift in Sources */,
+				FF935BDB20D360DF0059356E /* DateExtension.swift in Sources */,
 				FF8D7F4B1FE0FE96007BE595 /* FJHomeViewModel.swift in Sources */,
+				FF935BD920D360DF0059356E /* UIViewExtension.swift in Sources */,
 				FF26F35E1FE27CF400477B54 /* DGElasticPullToRefreshView.swift in Sources */,
 				FF26F35D1FE27CF400477B54 /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */,
 				FF26F3411FE26EC900477B54 /* FuncTool.swift in Sources */,
 				FFDE233B20D2AAD60094A329 /* Group2View.swift in Sources */,
 				FF935BCD20D35F920059356E /* Group3_1View.swift in Sources */,
+				FF935BD820D360DF0059356E /* NSObjectExtension.swift in Sources */,
 				FFF1A2C11FD8E1AD00444DBD /* ViewController.swift in Sources */,
 				FF26F35C1FE27CF400477B54 /* DGElasticPullToRefreshLoadingView.swift in Sources */,
 				FF26F35B1FE27CF400477B54 /* DGElasticPullToRefreshExtensions.swift in Sources */,
@@ -609,6 +632,7 @@
 				FF935BCB20D35F7B0059356E /* Group3_2View.swift in Sources */,
 				FF8D7F401FDFC551007BE595 /* NetWorkRootViewModel.swift in Sources */,
 				FF935BCF20D35FA80059356E /* Groip2_2View.swift in Sources */,
+				FF935BDA20D360DF0059356E /* StringExtension.swift in Sources */,
 				FFF1A2BF1FD8E1AD00444DBD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
