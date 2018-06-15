@@ -20,6 +20,18 @@
 		FF26F35E1FE27CF400477B54 /* DGElasticPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26F3591FE27CF400477B54 /* DGElasticPullToRefreshView.swift */; };
 		FF26F3601FE37AEA00477B54 /* ConstantTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26F35F1FE37AEA00477B54 /* ConstantTool.swift */; };
 		FF26F3621FE3BE2F00477B54 /* FJExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26F3611FE3BE2F00477B54 /* FJExampleCell.swift */; };
+		FF35330B20D3651F0025C5FE /* HomeStone.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF35330A20D3651F0025C5FE /* HomeStone.swift */; };
+		FF35330D20D365340025C5FE /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF35330C20D365340025C5FE /* HomeController.swift */; };
+		FF35330F20D365420025C5FE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF35330E20D365420025C5FE /* HomeViewModel.swift */; };
+		FF35331120D3654E0025C5FE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF35331020D3654E0025C5FE /* HomeView.swift */; };
+		FF35331B20D3671B0025C5FE /* BeerHomeStone.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF35331A20D3671B0025C5FE /* BeerHomeStone.swift */; };
+		FF35331D20D3672E0025C5FE /* BeerHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF35331C20D3672E0025C5FE /* BeerHomeController.swift */; };
+		FF35331F20D367400025C5FE /* BeerHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF35331E20D367400025C5FE /* BeerHomeViewModel.swift */; };
+		FF35332120D3674D0025C5FE /* BeerHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF35332020D3674D0025C5FE /* BeerHomeView.swift */; };
+		FF35332920D368020025C5FE /* BarHomeStone.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF35332820D368020025C5FE /* BarHomeStone.swift */; };
+		FF35332B20D368170025C5FE /* BarHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF35332A20D368170025C5FE /* BarHomeController.swift */; };
+		FF35332D20D3682A0025C5FE /* BarHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF35332C20D3682A0025C5FE /* BarHomeViewModel.swift */; };
+		FF35332F20D368370025C5FE /* BarHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF35332E20D368370025C5FE /* BarHomeView.swift */; };
 		FF8D7F401FDFC551007BE595 /* NetWorkRootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D7F3F1FDFC551007BE595 /* NetWorkRootViewModel.swift */; };
 		FF8D7F4B1FE0FE96007BE595 /* FJHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8D7F4A1FE0FE96007BE595 /* FJHomeViewModel.swift */; };
 		FF8D7F4F1FE1080F007BE595 /* app.cer in Resources */ = {isa = PBXBuildFile; fileRef = FF8D7F4E1FE1080F007BE595 /* app.cer */; };
@@ -76,6 +88,18 @@
 		FF26F3591FE27CF400477B54 /* DGElasticPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshView.swift; sourceTree = "<group>"; };
 		FF26F35F1FE37AEA00477B54 /* ConstantTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantTool.swift; sourceTree = "<group>"; };
 		FF26F3611FE3BE2F00477B54 /* FJExampleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FJExampleCell.swift; sourceTree = "<group>"; };
+		FF35330A20D3651F0025C5FE /* HomeStone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStone.swift; sourceTree = "<group>"; };
+		FF35330C20D365340025C5FE /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		FF35330E20D365420025C5FE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FF35331020D3654E0025C5FE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FF35331A20D3671B0025C5FE /* BeerHomeStone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerHomeStone.swift; sourceTree = "<group>"; };
+		FF35331C20D3672E0025C5FE /* BeerHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerHomeController.swift; sourceTree = "<group>"; };
+		FF35331E20D367400025C5FE /* BeerHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerHomeViewModel.swift; sourceTree = "<group>"; };
+		FF35332020D3674D0025C5FE /* BeerHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerHomeView.swift; sourceTree = "<group>"; };
+		FF35332820D368020025C5FE /* BarHomeStone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarHomeStone.swift; sourceTree = "<group>"; };
+		FF35332A20D368170025C5FE /* BarHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarHomeController.swift; sourceTree = "<group>"; };
+		FF35332C20D3682A0025C5FE /* BarHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarHomeViewModel.swift; sourceTree = "<group>"; };
+		FF35332E20D368370025C5FE /* BarHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarHomeView.swift; sourceTree = "<group>"; };
 		FF8D7F3F1FDFC551007BE595 /* NetWorkRootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkRootViewModel.swift; sourceTree = "<group>"; };
 		FF8D7F4A1FE0FE96007BE595 /* FJHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FJHomeViewModel.swift; sourceTree = "<group>"; };
 		FF8D7F4E1FE1080F007BE595 /* app.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = app.cer; sourceTree = "<group>"; };
@@ -198,6 +222,193 @@
 				FF26F3591FE27CF400477B54 /* DGElasticPullToRefreshView.swift */,
 			);
 			path = DGElasticPullToRefresh;
+			sourceTree = "<group>";
+		};
+		FF3532FC20D364410025C5FE /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FF35330120D364820025C5FE /* Shop */,
+				FF35330020D364750025C5FE /* Mine */,
+				FF3532FF20D364650025C5FE /* BBS */,
+				FF3532FD20D3644D0025C5FE /* Find */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		FF3532FD20D3644D0025C5FE /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				FF35332220D367BC0025C5FE /* Bar */,
+				FF35331420D3660C0025C5FE /* Beer */,
+				FF35330220D364950025C5FE /* Home */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		FF3532FF20D364650025C5FE /* BBS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BBS;
+			sourceTree = "<group>";
+		};
+		FF35330020D364750025C5FE /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		FF35330120D364820025C5FE /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		FF35330220D364950025C5FE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FF35330720D364D50025C5FE /* Stone */,
+				FF35330620D364C10025C5FE /* Controller */,
+				FF35330520D364B80025C5FE /* ViewModel */,
+				FF35330420D364AE0025C5FE /* View */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		FF35330420D364AE0025C5FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF35331020D3654E0025C5FE /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF35330520D364B80025C5FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF35330E20D365420025C5FE /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF35330620D364C10025C5FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF35330C20D365340025C5FE /* HomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF35330720D364D50025C5FE /* Stone */ = {
+			isa = PBXGroup;
+			children = (
+				FF35330A20D3651F0025C5FE /* HomeStone.swift */,
+			);
+			path = Stone;
+			sourceTree = "<group>";
+		};
+		FF35331420D3660C0025C5FE /* Beer */ = {
+			isa = PBXGroup;
+			children = (
+				FF35331520D3664C0025C5FE /* Home */,
+			);
+			path = Beer;
+			sourceTree = "<group>";
+		};
+		FF35331520D3664C0025C5FE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FF35331920D367090025C5FE /* Stone */,
+				FF35331820D367010025C5FE /* Controller */,
+				FF35331720D366F70025C5FE /* ViewModel */,
+				FF35331620D366EA0025C5FE /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FF35331620D366EA0025C5FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF35332020D3674D0025C5FE /* BeerHomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF35331720D366F70025C5FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF35331E20D367400025C5FE /* BeerHomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF35331820D367010025C5FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF35331C20D3672E0025C5FE /* BeerHomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF35331920D367090025C5FE /* Stone */ = {
+			isa = PBXGroup;
+			children = (
+				FF35331A20D3671B0025C5FE /* BeerHomeStone.swift */,
+			);
+			path = Stone;
+			sourceTree = "<group>";
+		};
+		FF35332220D367BC0025C5FE /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				FF35332320D367C60025C5FE /* Home */,
+			);
+			path = Bar;
+			sourceTree = "<group>";
+		};
+		FF35332320D367C60025C5FE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FF35332720D367F00025C5FE /* Stone */,
+				FF35332620D367E80025C5FE /* Controller */,
+				FF35332520D367DF0025C5FE /* ViewModel */,
+				FF35332420D367D60025C5FE /* View */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		FF35332420D367D60025C5FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF35332E20D368370025C5FE /* BarHomeView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FF35332520D367DF0025C5FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF35332C20D3682A0025C5FE /* BarHomeViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF35332620D367E80025C5FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF35332A20D368170025C5FE /* BarHomeController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FF35332720D367F00025C5FE /* Stone */ = {
+			isa = PBXGroup;
+			children = (
+				FF35332820D368020025C5FE /* BarHomeStone.swift */,
+			);
+			name = Stone;
 			sourceTree = "<group>";
 		};
 		FF8D7F3A1FDFBBFC007BE595 /* Classes */ = {
@@ -373,6 +584,7 @@
 		FFF1A2BD1FD8E1AD00444DBD /* JiuHuarSalesOrder */ = {
 			isa = PBXGroup;
 			children = (
+				FF3532FC20D364410025C5FE /* Class */,
 				FFDE233C20D2AD6D0094A329 /* Folder */,
 				FFDE233720D2A9E20094A329 /* Group3 */,
 				FFDE233620D2A9AF0094A329 /* Group2 */,
@@ -610,27 +822,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF35331F20D367400025C5FE /* BeerHomeViewModel.swift in Sources */,
 				FF26F3531FE2798200477B54 /* RefreshTableView.swift in Sources */,
+				FF35331120D3654E0025C5FE /* HomeView.swift in Sources */,
 				FF935BDB20D360DF0059356E /* DateExtension.swift in Sources */,
 				FF8D7F4B1FE0FE96007BE595 /* FJHomeViewModel.swift in Sources */,
 				FF935BD920D360DF0059356E /* UIViewExtension.swift in Sources */,
 				FF26F35E1FE27CF400477B54 /* DGElasticPullToRefreshView.swift in Sources */,
+				FF35332920D368020025C5FE /* BarHomeStone.swift in Sources */,
 				FF26F35D1FE27CF400477B54 /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */,
+				FF35330D20D365340025C5FE /* HomeController.swift in Sources */,
 				FF26F3411FE26EC900477B54 /* FuncTool.swift in Sources */,
 				FFDE233B20D2AAD60094A329 /* Group2View.swift in Sources */,
 				FF935BCD20D35F920059356E /* Group3_1View.swift in Sources */,
+				FF35330F20D365420025C5FE /* HomeViewModel.swift in Sources */,
+				FF35332B20D368170025C5FE /* BarHomeController.swift in Sources */,
 				FF935BD820D360DF0059356E /* NSObjectExtension.swift in Sources */,
 				FFF1A2C11FD8E1AD00444DBD /* ViewController.swift in Sources */,
+				FF35332F20D368370025C5FE /* BarHomeView.swift in Sources */,
+				FF35332120D3674D0025C5FE /* BeerHomeView.swift in Sources */,
 				FF26F35C1FE27CF400477B54 /* DGElasticPullToRefreshLoadingView.swift in Sources */,
 				FF26F35B1FE27CF400477B54 /* DGElasticPullToRefreshExtensions.swift in Sources */,
 				FF26F3621FE3BE2F00477B54 /* FJExampleCell.swift in Sources */,
 				FF26F3601FE37AEA00477B54 /* ConstantTool.swift in Sources */,
 				FF26F35A1FE27CF400477B54 /* DGElasticPullToRefreshConstants.swift in Sources */,
 				FF26F33C1FE25B3000477B54 /* ExmpleModel.swift in Sources */,
+				FF35331D20D3672E0025C5FE /* BeerHomeController.swift in Sources */,
 				FFDE233920D2AA460094A329 /* Group3View.swift in Sources */,
 				FF935BD220D35FC20059356E /* Group2_1View.swift in Sources */,
+				FF35330B20D3651F0025C5FE /* HomeStone.swift in Sources */,
 				FF935BCB20D35F7B0059356E /* Group3_2View.swift in Sources */,
 				FF8D7F401FDFC551007BE595 /* NetWorkRootViewModel.swift in Sources */,
+				FF35332D20D3682A0025C5FE /* BarHomeViewModel.swift in Sources */,
+				FF35331B20D3671B0025C5FE /* BeerHomeStone.swift in Sources */,
 				FF935BCF20D35FA80059356E /* Groip2_2View.swift in Sources */,
 				FF935BDA20D360DF0059356E /* StringExtension.swift in Sources */,
 				FFF1A2BF1FD8E1AD00444DBD /* AppDelegate.swift in Sources */,
